@@ -114,9 +114,8 @@ header{
 ------------------------------*/
 nav{
     text-align: right;
-    /*background:linear-gradient(rgba(105,105,105,1),rgba(0,0,0,1));*/
+    background:linear-gradient(rgba(105,105,105,1),rgba(0,0,0,1));
     position: fixed;
-    padding-top: 18px;
     top:0;
     width: 100%; 
     
