@@ -133,7 +133,7 @@ nav a{
     border-left-color: rgb(105,105,105);
 */
 }
-nav a:hover{
+a:hover{
 	background-color:black;
 }
 #dwnld{
