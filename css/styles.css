@@ -116,7 +116,7 @@ nav{
     text-align: right;
     /*background:linear-gradient(rgba(105,105,105,1),rgba(0,0,0,1));*/
     position: fixed;
-    padding-top: 10px;
+    padding-top: 18px;
     top:0;
     width: 100%; 
     
@@ -133,7 +133,7 @@ nav a{
     border-left-color: rgb(105,105,105);
 */
 }
-nav a.hover{
+nav a:hover{
 	background-color:black;
 }
 #dwnld{
