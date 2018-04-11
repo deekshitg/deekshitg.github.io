@@ -236,7 +236,7 @@ h3 ~ p {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 609px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -280,7 +280,7 @@ h3 ~ p {
    }
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 609px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: fixed;
