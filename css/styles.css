@@ -58,7 +58,7 @@ a{
 a:hover{
   text-decoration: none;
 }
-p,li{
+p{
     color:#FCFCFC;
     font-size: 18px;
     
@@ -132,14 +132,15 @@ nav a{
     border-left-color: rgb(105,105,105);
 */
 }
-a:hover{
-	background-color:black;
-}
-#dwnld{
+.downld{
+    display: inline-block;
+    background-color: #273f87;
     color:white;
+    padding:15px 20px;
+    text-decoration: none;
     font-weight: 700;
     font-family: sans-serif;
-    border-radius: 5px;
+    position: fixed;
 }
 /*Heade---*/
 header h1, header h2{
@@ -149,15 +150,6 @@ header h1, header h2{
 .profile-img{
   border-radius: 50%;
 }
-
-
-/*-------------------main---------------------------------*/
-
-.main h1{
-    color:#4C88FF;
-}
-
-
 /*Footer*/
 footer{
 /*   background: #444B6E; */
@@ -235,7 +227,7 @@ h3 ~ p {
   display: none;
 }
 
-@media screen and (max-width: 609px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -279,7 +271,7 @@ h3 ~ p {
    }
     
 }
-@media screen and (max-width: 609px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: fixed;
@@ -291,47 +283,12 @@ h3 ~ p {
     display: block;
     text-align: left;
   }
-}
+/*
+    .downld{
+    margin-top: 192px;
+    position: fixed;
+   }
+  
+*/
 
-section{
-    padding-bottom: 100px;
-    padding-top: 50px;
-}
-
-#contact, #activities{
-    padding-top: 100px;
-    padding-bottom: 250px;
-}
-mysite_v.1
-#about p{
-    text-align: justify;
-}
-td{
-    font-size: 18px;
-}
-
-td p{
-    color: #A9CEF4;
-    font-weight:800;
-}
-.content{
-    padding-left: 10rem;
-}
-
-#about p{
-    text-align: justify;
-}
-td{
-    font-size: 18px;
-}
-
-td p, strong{
-    color: #A9CEF4;
-    font-weight:800;
-}
-.content{
-    padding-left: 10rem;
-}
-li{
-    padding-bottom: 15px;
 }
