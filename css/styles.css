@@ -193,6 +193,14 @@ h3 ~ p {
 .job-description p:first-of-type{
   margin-top: 0;
 }
+#work p{
+	padding-bottom: 2px;
+	border:0;
+	margin:0;
+}
+#work .col-narrow, #work .col-wide{
+	padding-top:5px;
+}
 /*Skills------------------------*/
 /* .skills{
   background: #343F4B;
