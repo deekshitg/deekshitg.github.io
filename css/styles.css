@@ -16,9 +16,6 @@ html{
 html,body{
   background:url("../images/bcg1.jpg") no-repeat fixed;
   background-position: center center;
--webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
  background-size: cover;
 	margin: 0;
 }
@@ -283,6 +280,13 @@ td p, strong{
   }
 }
 @media screen and (max-width: 609px) {
+  html,body{
+  background:url("../images/bcg1.jpg") no-repeat fixed;
+  background-position: center center;
+ background-size: auto;
+	  height:auto;
+	margin: 0;
+}
   
   header .content-wrap{
         padding-top: 80px;
