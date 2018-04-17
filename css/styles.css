@@ -280,14 +280,6 @@ td p, strong{
   }
 }
 @media screen and (max-width: 609px) {
-  html,body{
-  background:url("../images/bcg1.jpg") no-repeat fixed;
-  background-position: center center;
- background-size: auto;
-	  height:auto;
-	margin: 0;
-}
-  
   header .content-wrap{
         padding-top: 80px;
   }
