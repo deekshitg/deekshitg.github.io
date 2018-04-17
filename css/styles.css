@@ -194,12 +194,12 @@ h3 ~ p {
   margin-top: 0;
 }
 #work p{
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 	border:0;
 	margin:0;
 }
 #work .col-narrow, #work .col-wide{
-	padding-top:5px;
+	padding-top:10px;
 }
 /*Skills------------------------*/
 /* .skills{
